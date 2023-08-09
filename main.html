@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Idea Marketplace</title>
+  <link rel="stylesheet" type="text/css" href="agri.css">
+</head>
+<body>
+    <header>
+        
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about us">About Us</a></li>
+            <li><a href="#idea pitch">Idea Pitch</a></li>
+            <li><a href="#contact us">Contact Us</a></li>
+          </ul>
+        </nav>
+        <h1>Idea Marketplace</h1>
+        <p>Connect and share your ideas with companies around the world.</p>
+        <a href="create account.html" >Create Account</a>
+        
+    </header>
+    <main>
+      <section id="idea pitch">
+        
+        <h2>Idea Pitch</h2>
+        <form idea="Ideaform">
+          <label for="company"><h3>Company:</h3></label>
+          <input type="text" id="company" required>
+    
+          <label for="idea"><h3>Idea:</h3></label>
+          <textarea id="idea" rows="5" required></textarea>
+    
+          <label for="amount"><h3>Cost To Company(CTC...):</h3></label>
+          <input type="text" id="amount" required>
+    
+          <label for="file"><h3>Attach PDF:</h3></label>
+          <input type="file" id="file" accept=".pdf">
+    
+    
+          <button type="submit">Submit</button>
+        </form>
+        <div id="successMessage" class="success-message"></div>
+      </div>
+        <img src="images/upi1.jpg" width="50%" alt="upi1">
+      </section> 
+        <section id="about us">
+            <h2>About Us</h2>
+            <p>This website was designed with the aim to bridge the gap between creative minds and companies across the world becuase we believe that the world is full of creative minds with innovative
+                ideas, but not everyone has the resources or connections to turn their ideas into reality. So, we do it for them. This way the website offers
+                a unique opportunity for the companies to tap into the creativity of people around the world. For idea proposers, this website offers a
+                chance to monetize your creativity and get recognition for your ideas. Our website streamlines the process of buying and selling ideas, making it easier for both parties to benefit from each other's creativity. </p>
+        </section>
+        <section id="team">
+            <h2>Our Team</h2>
+            <p> Our team consists of three capable students who are also the founders of this idea and the techie behind the website. 
+
+            </p>
+        </section>
+        <section id="contact us">
+            <h2>Contact Us</h2>
+            <p> Get in touch with us today!Our team is here to answer any questions you may have and help you with your social media needs.Simply fill out the form below with your name,email,and message,and we'll be in touch shortly.We're excited to hear 
+from you and help you achieve your social media goals!
+            </p>
+            <form action="backendcode.php" method="post">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+         </main>
+    
+         <footer>
+            <p>Copyright &copy; IdeaMarket 2023</p>
+         </footer> 
+</body>
+</html>
